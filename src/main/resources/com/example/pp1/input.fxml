@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="235.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pp1.ApplicationController">
+  <Label layoutX="207.0" layoutY="14.0" prefHeight="53.0" prefWidth="267.0" text="CHOOSE INPUT" textAlignment="JUSTIFY">
+    <font>
+      <Font name="System Bold" size="36.0" />
+    </font>
+  </Label>
+  <HBox layoutX="41.0" layoutY="118.0" prefHeight="100.0" prefWidth="600.0">
+    <Button id="txtInputButton" mnemonicParsing="false" onAction="#txtInputButtonAction" prefHeight="100.0" prefWidth="100.0" text="TXT" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font></Button>
+    <Button id="jsonInputButton" mnemonicParsing="false" onAction="#jsonInputButtonAction" prefHeight="100.0" prefWidth="100.0" text="JSON">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+    <Button id="xmlInputButton" mnemonicParsing="false" onAction="#xmlInputButtonAction" prefHeight="100.0" prefWidth="100.0" text="XML">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+    <Button id="zipInputButton" mnemonicParsing="false" onAction="#zipInputButtonAction" prefHeight="100.0" prefWidth="100.0" text="ZIP">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+    <Button id="rarInputButton" mnemonicParsing="false" onAction="#rarInputButtonAction" prefHeight="100.0" prefWidth="100.0" text="RAR">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+    <Button id="jarInputButton" mnemonicParsing="false" onAction="#jarInputButtonAction" prefHeight="100.0" prefWidth="100.0" text="JAR">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+  </HBox>
+</AnchorPane>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <yachts>
+        <yacht>
+            <name>Perseverance</name>
+            <material>wood</material>
+            <cost>780</cost>
+            <maxSpeed>69</maxSpeed>
+
+        </yacht>
+        <yacht>
+            <name>Therapy</name>
+            <material>steel</material>
+            <cost>400</cost>
+            <maxSpeed>35</maxSpeed>
+        </yacht>
+        <yacht>
+            <name>RumRunner</name>
+            <material>plastic</material>
+            <cost>510</cost>
+            <maxSpeed>49</maxSpeed>
+        </yacht>
+    </yachts>
+</root>

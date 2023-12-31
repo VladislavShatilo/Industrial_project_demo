@@ -1,0 +1,24 @@
+{
+ "yachts":
+ [
+  { 
+    "name": "Grace",
+    "material": "wood",
+    "cost": "500",
+    "maxSpeed": "45"
+  },
+  {
+    "name": "SecondWind",
+    "material": "plastic",
+    "cost": "670",
+    "maxSpeed": "63"
+  },
+  {
+    "name": "Serenity",
+    "material": "steel",
+    "cost": "590",
+    "maxSpeed": "50"
+  }
+   ]
+	
+}

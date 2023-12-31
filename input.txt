@@ -1,0 +1,3 @@
+superBoat plastic 490 30
+maria wood 650 45
+freedom steel 560 40

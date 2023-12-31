@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="261.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.pp1.ApplicationController">
+   <TextField fx:id="textFieldName" layoutX="76.0" layoutY="77.0" prefHeight="63.0" prefWidth="262.0">
+      <font>
+         <Font size="27.0" />
+      </font>
+   </TextField>
+   <Label layoutX="25.0" layoutY="14.0" prefHeight="63.0" prefWidth="365.0" text="INPUT OUTPUT FILE NAME">
+      <font>
+         <Font name="System Bold" size="27.0" />
+      </font>
+   </Label>
+   <Button layoutX="228.0" layoutY="172.0" mnemonicParsing="false" onAction="#finish" prefHeight="44.0" prefWidth="136.0" text="LIST">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font></Button>
+   <Button layoutX="49.0" layoutY="172.0" mnemonicParsing="false" onAction="#finishMap" prefHeight="51.0" prefWidth="125.0" text="MAP">
+      <font>
+         <Font name="System Bold" size="24.0" />
+      </font>
+   </Button>
+</AnchorPane>
